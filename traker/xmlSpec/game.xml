@@ -1,0 +1,211 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>1000</maxFrames>
+<username>xiaohoz</username>
+<name>Xiaohong Zhang</name>
+
+<view>
+  <width>854</width>
+  <height>720</height>
+  <loc x="30" y="30"/>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>720</height>
+</world>
+
+
+<bg>
+  <file>assets/bg.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</bg>
+
+<land>
+  <file>assets/land.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</land>
+
+<hud>
+  <x>220</x>
+  <y>20</y>
+  <w>480</w>
+  <h>90</h>
+</hud>
+
+
+<menu>
+  <width>854</width>
+  <height>720</height>
+  <noOfOptions>3</noOfOptions>
+  <loc x="0" y="0"/>
+  <msg x="30" y="60"/>
+  <optionLoc x="400" y="100" />
+  <color r="66" g="28" b="82" a="255"/>
+  <backColor r="0" g="0" b="0" a="100"/>
+  <option0>Go to Game</option0>
+  <option1>Help</option1>
+  <option2>Exit</option2>
+  <spaces>70</spaces>
+</menu>
+
+<clickOn>
+  <file>assets/clickon.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <scale>1.0</scale>
+  <transparency>true</transparency>
+</clickOn>
+
+<clickOff>
+  <file>assets/clickoff.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <scale>1.0</scale>
+  <transparency>true</transparency>
+</clickOff>
+
+
+
+
+
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>18</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+
+
+<font2 name="font2">
+  <file>fonts/game.ttf</file>
+  <size>40</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font2>
+
+
+
+<numberOfLights>1</numberOfLights>
+<lightSpec lightX1="100" lightY1="100" lightZ1="100" />
+<!-- larger noneffectiveLighting the smaller the radius of the light -->
+<noneffectiveLighting>100000</noneffectiveLighting>
+<ambientLighting>10000</ambientLighting>
+<brightness>15000000</brightness>
+<diffuseGrid>
+   <x>6</x>
+   <y>6</y>
+</diffuseGrid>
+
+
+<Fireball>
+  <file>assets/fireball.png</file>
+  <startLoc x="250" y="250"/>
+  <frames>6</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <scale>0.8</scale>
+  <safeDistance>10</safeDistance>
+  <chunk>
+    <size>16</size>
+    <distance>100</distance>
+  </chunk>
+  <transparency>false</transparency>
+  <number>2</number>
+</Fireball>
+
+
+<Bat>
+  <file>assets/bat.png</file>
+  <startLoc x="150" y="140"/>
+  <frames>6</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>180</speedX>
+  <speedY>160</speedY>
+  <scale>1.0</scale>
+  <safeDistance>150</safeDistance>
+  <chunk>
+    <size>8</size>
+    <distance>50</distance>
+  </chunk>
+  <transparency>false</transparency>
+  <number>10</number>
+</Bat>
+
+
+<Alien>
+  <file>assets/alien.png</file>
+  <startLoc x="550" y="440"/>
+  <frames>16</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <scale>1.0</scale>
+  <initLives>3</initLives>>
+  <bulletName>Bullet</bulletName>>
+  <chunk>
+    <size>16</size>
+    <distance>100</distance>
+  </chunk>
+  <transparency>false</transparency>
+  <number>1</number>
+</Alien>
+
+
+<Bullet>
+  <file>assets/bullet.png</file>
+  <startLoc x="100" y="240"/>
+  <speed x="300" y="0"/>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <interval>200</interval>
+  <distance>500</distance>
+  <scale>1.0</scale>
+  <collisionStrategy>Rectangular</collisionStrategy>
+  <transparency>false</transparency>
+</Bullet>
+
+<Heart>
+  <file>assets/heart.png</file>
+  <startLoc x="90" y="30"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+  <number>1</number>
+  <scale>1.0</scale>
+  <chunk>
+    <size>8</size>
+    <distance>200</distance>
+  </chunk>
+</Heart>>
+
+
+
+
+
+
+
+
+
+
+
+

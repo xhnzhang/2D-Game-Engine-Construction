@@ -1,0 +1,23 @@
+Name: Xiaohong Zhang
+
+Course: CPSC6160 Spring2019
+
+Clemson Email Address: xiaohoz@g.clemson.edu
+
+Final Project: #6
+
+Project due date: May 1st, 2019 at 8 AM
+
+Project description: 
+	1. Add menu and restart for tracker framework.
+	2. To run:
+	   $ cd ./tracker/
+	   $ make
+	   $ ./run
+	3. To play:
+	   use keyboard A, S, D, W to move the player. Use F1 
+	   for more details.
+
+The Pizzazz feature that I added:
+	Tracking light
+
